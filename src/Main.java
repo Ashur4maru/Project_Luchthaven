@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+
     public static void main(String[] args) {
         // Initialiseer passagiers
         Passagier p1 = new Passagier("Jan", "Janssens", 25, "Kerkstraat 1", 20);
@@ -408,4 +406,4 @@ public class Main {
         return null;
     }
 
-}
+

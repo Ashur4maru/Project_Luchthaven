@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Vliegtuig {
 
-    private String registratienummer;
-    private String model;
+    private final String registratienummer;
+    private final String model;
     private int capaciteit; // Maximaal aantal passagiers
     private boolean benzineVol; // Benzinestatus: vol (true) of leeg (false)
 
